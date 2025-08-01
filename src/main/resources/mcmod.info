@@ -1,16 +1,26 @@
-[
 {
-  "modid": "tchelper",
-  "name": "Thaumcraft Research Helper",
-  "description": "This is a ingame Thaumcraft Research Helper",
-  "version": "1.4",
-  "mcversion": "${mcversion}",
-  "url": "",
-  "updateUrl": "",
-  "authorList": ["Knoxz"],
-  "credits": "The Forge and FML guys, for making this example",
-  "logoFile": "",
-  "screenshots": [],
-  "dependencies": []
+  "modListVersion": 2,
+  "modList": [
+    {
+      "modid": "${modId}",
+      "name": "${modName}",
+      "description": "This is a ingame Thaumcraft Research Helper",
+      "version": "${modVersion}",
+      "mcversion": "${minecraftVersion}",
+      "url": "",
+      "updateUrl": "",
+      "authorList": [
+        "Knoxz",
+        "valentimarco"
+      ],
+      "credits": "The Forge and FML guys, for making this example",
+      "logoFile": "",
+      "screenshots": [],
+      "parent": "",
+      "requiredMods": [],
+      "dependencies": [],
+      "dependants": [],
+      "useDependencyInformation": false
+    }
+  ]
 }
-]
